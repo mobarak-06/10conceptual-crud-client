@@ -27,7 +27,9 @@ const Home = () => {
               <div className="card-body">
                 <h2 className="card-title">{product.name}</h2>
                 <p><span className="font-medium">Brand Name:</span> {product.brandName}</p>
-                
+                <p><span className="font-medium">Price:</span> {product.price}</p>
+                <p><span className="font-medium">Type:</span> {product.type}</p>
+                <p><span className="font-medium">Rating:</span> {product.rating}</p>
               </div>
             </div>
           </div>

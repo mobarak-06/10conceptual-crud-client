@@ -43,7 +43,10 @@ const MyCart = () => {
               </figure>
               <div className="card-body">
                 <h2 className="card-title">{item.name}</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p><span className="font-medium">Brand Name:</span> {item.brandName}</p>
+                <p><span className="font-medium">Price:</span> {item.price}</p>
+                <p><span className="font-medium">Type:</span> {item.type}</p>
+                <p><span className="font-medium">Rating:</span> {item.rating}</p>
                 <div className="card-actions justify-between">
                   <Link to={`/products/${item._id}`}>
                   <button className="btn btn-accent">Update</button>
